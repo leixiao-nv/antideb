@@ -2,17 +2,17 @@
 
 Package antideb - basic anti-debugging and anti-reverse engineering protection for your application. Performs basic detection functions such as ptrace, int3, time slots, vdso and others (don't foget to obfuscate your code).
 <br/><br/>
-[![GoDoc](https://godoc.org/github.com/biter777/antideb?status.svg)](https://godoc.org/github.com/antideb/countries)
-[![GoDev](https://img.shields.io/badge/godev-reference-5b77b3)](https://pkg.go.dev/github.com/biter777/antideb?tab=doc)
-[![Go Walker](https://img.shields.io/badge/gowalker-reference-5b77b3)](https://gowalker.org/github.com/biter777/antideb)
+[![GoDoc](https://godoc.org/github.com/leixiao-nv/antideb?status.svg)](https://godoc.org/github.com/antideb/countries)
+[![GoDev](https://img.shields.io/badge/godev-reference-5b77b3)](https://pkg.go.dev/github.com/leixiao-nv/antideb?tab=doc)
+[![Go Walker](https://img.shields.io/badge/gowalker-reference-5b77b3)](https://gowalker.org/github.com/leixiao-nv/antideb)
 [![Documentation Status](https://readthedocs.org/projects/antideb/badge/?version=latest)](https://countries.readthedocs.io/en/latest/?badge=latest)
 [![codeclimate](https://codeclimate.com/github/biter777/antideb/badges/gpa.svg)](https://codeclimate.com/github/biter777/antideb)
-[![GolangCI](https://golangci.com/badges/github.com/biter777/antideb.svg?style=flat)](https://golangci.com/r/github.com/biter777/antideb)
-[![GoReport](https://goreportcard.com/badge/github.com/biter777/antideb)](https://goreportcard.com/report/github.com/biter777/antideb)
+[![GolangCI](https://golangci.com/badges/github.com/leixiao-nv/antideb.svg?style=flat)](https://golangci.com/r/github.com/leixiao-nv/antideb)
+[![GoReport](https://goreportcard.com/badge/github.com/leixiao-nv/antideb)](https://goreportcard.com/report/github.com/leixiao-nv/antideb)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/08eb1d2ff62e465091b3a288ae078a96)](https://www.codacy.com/manual/biter777/antideb?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=biter777/antideb&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/biter777/antideb/branch/master/graph/badge.svg)](https://codecov.io/gh/biter777/antideb)
 [![Coverage Status](https://coveralls.io/repos/github/biter777/antideb/badge.svg?branch=master)](https://coveralls.io/github/biter777/antideb?branch=master)
-[![Coverage](https://img.shields.io/badge/coverage-gocover.io-brightgreen)](https://gocover.io/github.com/biter777/antideb)
+[![Coverage](https://img.shields.io/badge/coverage-gocover.io-brightgreen)](https://gocover.io/github.com/leixiao-nv/antideb)
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-brightgreen.svg)](https://opensource.org/licenses/BSD-2-Clause)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbiter777%antideb.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbiter777%antideb?ref=badge_shield)
 [![Build Status](https://travis-ci.org/biter777/antideb.svg?branch=master)](https://travis-ci.org/biter777/antideb)
@@ -27,7 +27,7 @@ Package antideb - basic anti-debugging and anti-reverse engineering protection f
 
 ### installation
 
-    go get github.com/biter777/antideb
+    go get github.com/leixiao-nv/antideb
 
 ### usage
 
@@ -45,10 +45,10 @@ func main() {
 ### options
 
 ```go
-import "github.com/biter777/antideb"
+import "github.com/leixiao-nv/antideb"
 ```
 
-For more complex options, consult the [documentation](http://godoc.org/github.com/biter777/antideb).
+For more complex options, consult the [documentation](http://godoc.org/github.com/leixiao-nv/antideb).
 
 ### contributing
 

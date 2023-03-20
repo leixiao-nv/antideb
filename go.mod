@@ -1,4 +1,4 @@
-module github.com/biter777/antideb
+module github.com/leixiao-nv/antideb
 
 go 1.15
 
