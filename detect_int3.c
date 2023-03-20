@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int debuging;
+static int debuging;
 
 static void sig_handler(int sig)
 {
